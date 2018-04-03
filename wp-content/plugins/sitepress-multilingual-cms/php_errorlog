@@ -1,0 +1,1 @@
+[29-Jul-2016 10:56:47 CST6CDT] PHP Fatal error:  Call to undefined function plugins_url() in /home/buencafe/public_html/wp-content/plugins/sitepress-multilingual-cms/sitepress.php on line 15

@@ -1,0 +1,1 @@
+[24-Nov-2017 13:51:27 CST6CDT] PHP Fatal error:  Call to undefined function plugin_basename() in /home/buencafe/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 36

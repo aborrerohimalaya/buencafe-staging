@@ -1,0 +1,1 @@
+[29-Jul-2016 10:53:42 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/buencafe/public_html/wp-content/plugins/wpml-translation-analytics/inc/translation-analytics.class.php on line 10

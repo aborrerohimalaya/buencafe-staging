@@ -1,0 +1,1475 @@
+.sig, .ant {
+    cursor: pointer;
+    height: 100%!important;
+}
+.sig {
+    left: auto!important;
+    right: 5%;
+}
+#innovacion .Infografia img {
+    width: 100%;
+}
+/*Arreglo error de tamaño video en productos*/
+#product .wrapper section:nth-child(1) iframe,
+#product .wrapper section:nth-child(2) #sliderproducto .swiper-wrapper{
+    min-height: 421px !important;
+}
+/*Fin*/
+@media only screen and (max-width: 1325px) {
+
+    #cafe-de-colobia article > h1 {
+        margin-left: 0;
+    }
+    #cafe-de-colobia article > p {
+        margin: 0 0 20px;
+        line-height: 20px;
+    }
+    #cafe-de-colobia > article {
+        margin: 0 20px;
+    }
+
+    #reconocimiento div {
+        float: left;
+        margin-left: 0;
+        margin-right: 10px;
+        position: relative;
+        width: calc(25% - 10px);
+    }
+    #cafe-de-colobia .wrapper h1 {
+        margin: 0 !important;
+        padding: 0 0 20px 20px !important;
+    }
+
+    #cafe-de-colobia .wrapper {
+        clear: both;
+        float: left;
+        margin: 0 auto;
+        padding: 30px 20px;
+        width: calc(100% - 40px);
+    }
+    #quienes-somos .wrapper article.Certificaciones:nth-child(1) ,
+    #cafe-de-colobia .wrapper > article:nth-child(1) {
+        margin-right: 11px;
+        overflow: hidden;
+        width: 49% !important;
+    }
+    #cafe-de-colobia .wrapper > article  img {
+        height: auto !important;
+        width: 100%;
+    }
+    #quienes-somos .wrapper > article.Productos:nth-child(2) ,
+    #cafe-de-colobia .wrapper > article:nth-child(2) {
+        overflow: hidden;
+        width: 49%;
+    }
+    #quienes-somos .wrapper > article:nth-child(2) iframe ,
+    #cafe-de-colobia .wrapper > article:nth-child(2) iframe {
+        width: 100% !important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4)::after {
+        display: none;
+    }
+    #cafe-de-colobia .wrapper:nth-child(4) {
+        background: rgba(0, 0, 0, 0) url("../img/fdo_proceso.jpg") repeat-x scroll -364px bottom / 2031px auto !important;
+        height: auto;
+        margin-bottom: 20px !important;
+        padding-bottom: 110px;
+    }
+    html[lang="es"] #quienes-somos article:nth-child(1)  > h1 ,
+    #cafe-de-colobia .wrapper:nth-child(5) article:nth-child(1) > h1 {
+        margin-top: 35px!important;
+    }
+
+    #quienes-somos  article  img ,
+    #cafe-de-colobia .wrapper:nth-child(5) article  img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+
+
+    #innovacion .wrapper {
+        clear: both;
+        overflow: hidden;
+        position: relative;
+        width: calc(100% - 60px);
+    }
+
+    .Entidades > img {
+        width: 100%;
+    }
+    #innovacion .wrapper h1 {
+        padding-top: 30px;
+    }
+
+    #innovacion .accordion .accord-header {
+        width: auto!important;
+    }
+
+    #innovacion .Investigacion .secciones {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1240px) {
+
+    footer li {
+        display: block;
+        width: 230px;
+    }
+    footer ul {
+        clear: both;
+        height: 120px;
+        width: 459px;
+    }/*
+    #product > h1 {
+        background-size: auto 100% !important;
+        height: 276px;
+        margin-bottom: 40px;
+    }*/
+    #product > article h2 {
+        border: 0 none;
+        float: left;
+        max-width: 100%;
+        padding: 10px 20px 0;
+        width: auto;
+    }
+    #product > article h1 {
+        max-width: 100%;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    #product > article h2 {
+        clear: both;
+        float: none;
+    }
+    section#product > article > div {
+        height: 506px;
+        margin: 20px 20px 0;
+        transform: scale(0.8);
+        transform-origin: 0 center 0;
+    }
+    #product .wrapper h1 {
+        margin: 0 !important;
+        padding: 0 0 0 20px !important;
+    }
+    #product .wrapper p {
+        font-size: 1.3em;
+        padding: 0 0 0 20px !important;
+    }
+    #product .wrapper section:nth-child(1) {
+        margin-right: 20px;
+        overflow: hidden;
+        width: 50% !important;
+    }
+    #product .wrapper section:nth-child(2) {
+        width: 48%;
+    }
+    br {
+        width: 100% !important;
+    }
+    #product .wrapper section:nth-child(1) iframe {
+        margin-left: 20px;
+        width: 100% !important;
+    }
+    #product .wrapper {
+        width: 100%;
+    }
+    section#product {
+        overflow: hidden;
+    }
+    #product .wrapper section:nth-child(2) article > p:first-child {
+        padding: 0 !important;
+    }
+    .swiper-slide.swiper-slide-visible.swiper-slide-active img {
+    }
+    #product .wrapper section:nth-child(2) .swiper-slide img {
+        width: 100% !important;
+        height: auto!important;
+    }
+    #product .wrapper section:nth-child(2) h1 {
+        padding: 0 !important;
+    }
+    #product .wrapper section:last-child > p {
+        padding: 0 !important;
+    }
+    #product .detail article {
+        margin-left: 13px;
+        width: 304px;
+        margin: 0 10px 10px!important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4) h1 {
+        padding-right: 60px !important;
+    }
+    #cafe-de-colobia .wrapper:nth-child(4)::after {
+        background-position: -360px 0;
+        background-size: auto 100%;
+        height: 510px;
+        top: 112px !important;
+    }
+
+    #experiencia .videos .wrapper > div {
+        float: none;
+        margin: 0 auto 90px;
+        position: relative;
+    }
+    #experiencia .videos .wrapper > div::after {
+        background: #000 none repeat scroll 0 0 !important;
+        content: "";
+        height: 100%;
+        left: -100%;
+        position: absolute;
+        top: 0;
+        width: 1920px;
+        z-index: -1;
+    }
+    #experiencia .videos .wrapper div p {
+        color: #000 !important;
+        margin-top: 20px;
+        position: absolute;
+    }
+    #experiencia .videos .wrapper > ul {
+        clear: both;
+        float: none;
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+    }
+    #experiencia .videos .wrapper > div {
+        max-width: 600px;
+        width: 100%;
+    }
+    #experiencia .videos .wrapper {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+    #quienes-somos .wrapper article:nth-child(2) h1.Logo {
+    background-position: center center !important;
+    background-size: auto !important;
+    height: 60px !important;
+}  
+
+ }
+@media only screen and (max-width: 1000px) {
+    #quienes-somos .wrapper article:nth-child(2) h1.Logo {
+        background-position: left bottom ;
+        background-size: 600px auto ;
+        height: 20px ;
+    }
+    section#product > article > div {
+        box-shadow: none;
+        clear: both !important;
+        float: none;
+        height: auto !important;
+        margin: 20px auto !important;
+        overflow: visible !important;
+        transform: scale(1);
+        width: 615px;
+    }
+    section#product > article > div > div {
+        background-position: 0 0 !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% auto !important;
+        box-shadow: 0 0 6px !important;
+        height: 419px !important;
+        left: 0 !important;
+        margin-bottom: 13px;
+        position: relative;
+        top: 0 !important;
+        width: 610px !important;
+        float: none!important
+    }
+    #product > article {
+        width: 100% !important;
+    }
+    #product > article h2 {
+        clear: both;
+        float: none;
+    }
+    section#product > article > div div > a {
+        height: 101px !important;
+        left: 90px;
+        top: 157px !important;
+        width: 80px !important;
+    }
+    section#product > article > div div > a:nth-child(3) {
+        left: 188px !important;
+    }
+    section#product > article > div div > a:nth-child(4) {
+        left: 288px;
+    }
+    section#product > article > div div > a:nth-child(5) {
+        left: 400px;
+    }
+    section#product > article > div div > a:nth-child(6) {
+        left: 500px;
+    }
+
+    section#product > article > div > div.active.extracto:nth-child(1){
+        background-position: 0 0!important;
+    }    
+    section#product > article > div > div.active.atomizado:nth-child(1){
+        background-position: 0 -420px !important;
+    }
+    section#product > article > div > div.active.aglomerado:nth-child(1){
+        background-position: 0 -840px!important;
+    }
+    section#product > article > div > div.active.liofilizado:nth-child(1){
+        background-position: 0 -1260px!important;
+    }
+    section#product > article > div > div.active.roasted-instant:nth-child(1){
+        background-position: 0 -1680px!important;
+    }
+
+    section#product > article > div div h3 {
+        background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+        bottom: auto;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 3em;
+        left: 20px;
+        margin: 1% 20px 20px;
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        transform: none;
+        white-space: pre;
+    }
+
+    .Empaques .abrirPopUp:nth-child(2) {
+        left: 90px;
+        top: 262px;
+    }
+    .Empaques .abrirPopUp:nth-child(3) {
+        left: 371px;
+        top: 127px;
+    }
+
+    #product .wrapper section:nth-child(1) {
+        left: 0 !important;
+        margin: 0 0 20px !important;
+        position: relative;
+        width: calc(100% - 20px) !important;
+    }
+
+    #product .wrapper section:nth-child(1) {
+        left: 0 !important;
+        margin: 0 -9px 20px !important;
+        position: relative;
+        width: calc(100% - 5px) !important;
+    }
+    #product .wrapper section:nth-child(2) {
+        margin: 10px;
+        overflow: hidden !important;
+        width: calc(100% - 23px) !important;
+    }
+
+    #product .wrapper section:nth-child(2) .swiper-slide p {
+        width: calc(100% - 25px);
+    }
+    #product .wrapper section:nth-child(2) .swiper-slide img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    #product .value {
+        margin: 0;
+    }
+    #product .detail article {
+        margin-left: 13px;
+        width: 304px;
+    }
+    #cafe-de-colobia .wrapper:nth-child(3) > article,
+    #quienes-somos .wrapper article.Certificaciones:nth-child(1),
+    #quienes-somos .wrapper article.Productos:nth-child(2),
+    #cafe-de-colobia .wrapper:nth-child(5) > article {
+        display: block;
+        margin-bottom: 30px;
+        width: 100% !important;
+    }
+
+    #quienes-somos .wrapper .Certificaciones h1 {
+        margin-top: 0 !important;
+        padding-top: 50px;
+    }
+    #quienes-somos .wrapper .Productos h1 {
+        padding-top: 0;
+    }
+    #cafe-de-colobia article:nth-child(3) > h1 {
+        padding: 0 !important;
+    }
+    #cafe-de-colobia .wrapper h1 {
+        padding-left: 0 !important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4) h1 {
+        padding-right: 0 !important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4) p {
+        background: rgba(56, 1, 21, 0.6) none repeat scroll 0 0;
+        bottom: 0;
+        clear: both;
+        color: #fff;
+        font-size: 1.4em;
+        height: 130px;
+        line-height: 15px;
+        margin: 0 !important;
+        padding: 20px;
+        position: absolute;
+        text-align: left;
+        width: auto !important;
+    }
+
+    #quienes-somos .wrapper:nth-child(5) article:nth-child(1) p ,
+    #cafe-de-colobia .wrapper:nth-child(5) article:nth-child(1) p {
+        text-align: center;
+    }
+
+    #quienes-somos .wrapper:nth-child(5) article:nth-child(1) a:last-child ,
+    #cafe-de-colobia .wrapper:nth-child(5) article:nth-child(1) a:last-child {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #quienes-somos .wrapper:nth-child(5) ,
+    #cafe-de-colobia .wrapper:nth-child(5) {
+        margin-bottom: -9px;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+
+    #recetas article .cover img {
+        height: auto;
+    }
+
+    #recetas article {
+        width: 300px;
+    }
+
+    #recetas article .cover {
+        height: 204px;
+        left: 1px;
+        overflow: hidden;
+        position: relative;
+        width: 299px;
+    }
+
+    #recetas aside {
+        display: block;
+        float: none;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 40px;
+        width: auto;
+    }
+
+    #recetas .content {
+        padding: 30px;
+        text-align: left;
+    }
+
+    #mapa-del-sitio sidebar {
+        width: calc(50% - 18px);
+    }
+
+    #mapa-del-sitio .Contenidos {
+        width: 50%;
+    }
+
+    #mapa-del-sitio .Contenidos ul ul {
+        padding-right: 18px;
+    }   
+
+    #mapa-del-sitio sidebar h2, #mapa-del-sitio .Contenidos h2 {
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #fff;
+        color: #000;
+        font-family: "GEInspira";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        height: 54px;
+        line-height: 54px;
+        padding-left: 20px !important;
+    }
+    #mapa-del-sitio .Contenidos h3 {
+        font-size: 19px;
+        height: 45px;
+        line-height: 45px;
+        padding-left: 40px;
+        background-size: 10px auto!important;
+    }
+
+    #mapa-del-sitio sidebar ul li {
+        background-position: 0 4px !important;
+        background-size: 10px auto !important;
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    #innovacion .Infografia {
+        background: 
+    }
+    #innovacion .Infografia > img {
+        display: none;
+    }
+
+    #innovacion .Investigacion .secciones.procesos .Left {
+        display: none;
+        text-align: left;
+    }
+    #innovacion .Infografia .m1 {
+        left: 55%;
+        top: 13.5%;
+    }
+    #innovacion .Infografia .m2 {
+        left: 55.5%;
+        top: 28.8%;
+    }
+    #innovacion .Infografia .m3 {
+        left: 18.7%;
+        top: 39.9%;
+    }
+    #innovacion .Infografia .m4 {
+        left: 57%;
+        top: 34.6%;
+    }
+    #innovacion .Infografia .m5 {
+        left: 81.2%;
+        top: 47%;
+    }
+    #innovacion .Infografia .m6 {
+        left: 58.9%;
+        top: 66.6%;
+    }
+    #innovacion .Infografia .m7 {
+        left: 66.7%;
+        top: 80.3%;
+    }
+    #innovacion .Infografia .more {
+        display: block;
+        position: absolute;
+        width: 4.3%;
+    }
+    #innovacion .Infografia {
+        /*background: rgba(0, 0, 0, 0) url("../img/600-innovacion.jpg") repeat scroll 0 0 / 100% auto;*/
+        height: 1222px;
+        margin: 0 auto;
+        width: 600px;
+    }
+    html[lang="es"] #innovacion .Infografia {
+        background: rgba(0, 0, 0, 0) url("../img/600-innovacion.jpg") repeat scroll 0 0 / 100% auto;
+    }
+    html[lang="en"] #innovacion .Infografia {
+        background: rgba(0, 0, 0, 0) url("../img/600-innovacion-en.jpg") repeat scroll 0 0 / 100% auto;
+    }
+
+}
+#innovacion .Infografia a img {
+    width: 100%;
+}
+@media only screen and (max-width: 760px) {
+
+header {
+    position: relative;
+    z-index: 30000000;
+}
+header > div {
+    top: -10px;
+}
+    #recetas .info::after {
+        background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 30px;
+        overflow-x: hidden;
+        position: absolute;
+        text-align: left;
+        top: 0;
+        width: calc(100% - 60px);
+        z-index: 40;
+    }
+
+    #recetas .info > ul {
+        padding-right: 50px;
+    }
+
+    .popup {
+        max-width: 70%;
+        z-index: 9999999999 !important;
+    }
+    .popup > h1 {
+        font-size: 2.7em;
+        padding: 40px 13%;
+        text-align: center;
+    }
+    .home #slider .swiper-container, .home #slider .swiper-wrapper, .home #slider .swiper-slide,
+    .swiper-slide img,.home section:nth-child(1) {
+        height: 260px!important;
+    }
+
+    .home section:nth-child(1) {
+        height: 292px !important;
+    }
+    .home #slider .swiper-container {
+        overflow: visible;
+    }
+    .swiper-pagination > span.swiper-active-switch {
+        background: #00a5c1 none repeat scroll 0 0 !important;
+    }
+    .swiper-pagination > span {
+        border-color: #CCCCCC!important;
+    }
+    .swiper-pagination {
+        bottom: -40px;
+    }
+    #slider2 h1 {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 32px;
+    }
+    .blog article {
+        display: inline-block;
+        margin: 0 5px 5%;
+        width: 310px !important;
+    }
+    .home section > h1::after,
+    .home section > h1::before{
+        display: none;
+    }
+    section > h1::after,
+    section > h1::before{
+        display: none;
+    }
+    .home section.section-0 p {
+        color: #000;
+        font-family: Raleway;
+        height: 346px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .home section.section-0 p {
+        background-position: center center !important;
+    }
+
+    .home section.section-0 p span {
+        display: block;
+        font-size: 1.3em !important;
+        font-weight: 300;
+        left: 20px;
+        line-height: 19px;
+        margin: 0 auto;
+        padding-top: 14px;
+        position: relative;
+        text-align: center;
+        width: 213px;
+    }
+    .home section.section-0 a {
+        background: rgba(0, 0, 0, 0) url("../img/sprite.png") no-repeat scroll 0 -71px / 260px auto;
+        bottom: 14px;
+        display: block;
+        height: 37px;
+        left: 50%;
+        margin-left: 21px;
+        position: absolute;
+        transform: translate(-50%, 0px);
+        width: 39px;
+    }
+
+    .home section.section-1 h2 {
+        font-size: 2.4em;
+        top: 60px;
+        left: 0;
+        width: 266px;
+    }
+    .home section.section-1 br {
+        display: none;
+    }
+    .home section.section-1 p {
+        background-position: -160px center!important;
+    }
+    .home section.section-1 p span {
+        display: block;
+        font-size: 1.3em !important;
+        font-weight: 300;
+        left: 3px;
+        line-height: 19px;
+        padding-top: 55px;
+        position: relative;
+        text-align: center;
+        width: 200px;
+    }
+    .home section.section-1 a {
+        background: rgba(0, 0, 0, 0) url("../img/sprite.png") no-repeat scroll 0 -109px / 260px auto;
+        bottom: 14px;
+        display: block;
+        height: 37px;
+        left: 0;
+        margin-left: 127px;
+        position: absolute;
+        transform: translate(-50%, 0px);
+        width: 39px;
+    }
+
+    .home section.section-0 p span span:first-child {
+        font-weight: bold!important;
+    }
+    .home section.section-0 p span span:nth-child(2) {
+        font-weight: bold!important;
+    }
+    .home section.section-1 p {
+        height: 252px;
+    }
+    .home section.slogan > h1 {
+        font-size: 1.7em;
+    }
+
+    footer li {
+        display: block !important;
+        float: none !important;
+        position: static !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    footer ul {
+        height: auto !important;
+        padding-bottom: 99px;
+        width: auto !important;
+    }
+    footer > a {
+        left: 50%;
+        transform: translate(-50%, 0px);
+    }/*
+    #product > h1 {
+        background-size: auto 100% !important;
+        height: 156px;
+        margin-bottom: 40px;
+    }
+*/
+    #reconocimiento div {
+        margin-bottom: 10px;
+        width: calc(50% - 10px);
+    }
+    #reconocimiento div:nth-child(5) {
+        clear: left;
+    }
+
+    #blog > form ,
+    #contact > form {
+        width: 90%;
+    }
+    section#blog input[type="text"],
+    section#contact input[type="text"],
+     section#blog input[type="password"],
+     section#contact input[type="password"], 
+     section#blog input[type="email"],
+     section#contact input[type="email"], 
+     section#blog textarea,
+     section#contact textarea{
+        width: calc(100% - 20px) !important;
+    }
+    #country_contact.dd-container {
+        width: 100% !important;
+    }
+    section#blog textarea ,
+    section#contact textarea {
+        width: calc(100% - 83px)!important;
+    }
+
+    #blog h3 ,
+    #contact h3 {
+        font-size: 1.9em;
+        line-height: 22px !important;
+    }
+
+    #innovacion .Investigacion .secciones.materia-prima .Left, #innovacion .Investigacion .secciones.materia-prima .Right {
+        width: calc(100% );
+        padding: 0;
+    }
+
+    #innovacion .Investigacion .materia-prima p {
+        margin-bottom: 26px;
+        margin-top: 26px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #recetas .info {
+        color: #000;
+        height: 375px;
+        overflow: hidden;
+        position: relative;
+        text-align: left;
+        width: 100%;
+    }
+
+    #recetas .info > h2 {
+        font-size: 2.6em;
+    font-size: 1.6em;
+        padding: 22px 110px;
+        position: relative;
+        z-index: 1000;
+    }
+    #recetas .info > h2::after {
+        background: rgba(0, 0, 0, 0) url("../img/sprite-receta.png") no-repeat scroll 0 0 / 170px auto;
+        content: "";
+        height: 53px;
+        left: 66px;
+        position: absolute;
+        top: 16px;
+        width: 32px;
+    }
+    #recetas aside p {
+        padding-left: 16px;
+    }
+
+    #recetas aside .tw {
+        margin: 15px -5px;
+    }
+    #recetas .info > ul {
+        font-size: 1.6em;
+        line-height: 20px;
+            line-height: 16px;
+        margin-bottom: 0;
+        max-width: 400px;
+        padding-left: 90px;
+        padding-right: 50px;
+        position: relative;
+        z-index: 200;
+    }
+    #recetas .info > ul li {
+        list-style: outside none disc;
+        margin-bottom: 10px;
+        margin-bottom: 3px;
+    }
+    #recetas article {
+        padding-right: 0;
+        margin: 0 10px 20px;
+    }
+
+    #recetas article a span {
+        right: 10px;
+    }
+
+
+    #cafe-de-colobia .wrapper:nth-child(4) > article {
+        background: rgba(0, 0, 0, 0) url("../img/fdo_proceso.jpg") repeat-x scroll -364px 50px / 2031px auto !important;
+        padding: 0 20px 30px;
+        width: calc(100% - 40px) !important;
+    }
+    #cafe-de-colobia .wrapper:nth-child(4) {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+        padding: 0;
+        width: 100% !important;
+    }
+    #quienes-somos .wrapper > article:nth-child(2) ,
+    #cafe-de-colobia .wrapper > article:nth-child(2) {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #experiencia .slider-experiencia .swiper-container, #experiencia .slider-experiencia .swiper-wrapper, #experiencia .slider-experiencia .swiper-slide {
+        height: 258px !important;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 620px) {
+.cd-horizontal-timeline .events-content li ,
+.cd-horizontal-timeline .events-content {
+    height: auto !important;
+}
+}
+@media only screen and (max-width: 620px) {
+
+    #experiencia .videos .wrapper > div iframe {
+        height: auto;
+        min-height: 290px;
+        width: 100%;
+    }
+    #experiencia .videos .wrapper div p {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .wrapper > ul {
+    }
+    .active {
+    }
+    #experiencia article.videos li {
+        margin: 10px 5px;
+        width: calc(50% - 12px);
+    }
+    #experiencia article.videos li img {
+        width: 100%;
+    }
+
+    #experiencia .swiper-pagination {
+        margin: 30px 0;
+    }
+    #experiencia article > h1 {
+        color: #4e3227;
+        font-size: 3.5em;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        text-align: left;
+    }
+    #experiencia .slider-experiencia .swiper-container, #experiencia .slider-experiencia .swiper-wrapper, #experiencia .slider-experiencia .swiper-slide {
+        height: 218px !important;
+        overflow: hidden;
+    }
+    #experiencia .slider-experiencia .swiper-slide img{
+        height: 210px !important;
+    }
+
+    #experiencia article > p {
+        color: #000;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #mapa-del-sitio sidebar {
+        width: calc(100%);
+    }
+
+    #mapa-del-sitio .Contenidos {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+    .Contenidos li {
+        margin: 0;
+    }
+    .Contenidos li li {
+        margin: 0 0 10px;
+    }
+
+    #proximamente .wrapper article {
+        background-position: center center !important;
+    }
+
+    #politicaprivacidad h1.Titulo {
+        color: #5b9132;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 17px;
+    }
+    #terminoscondiciones h1.Titulo {
+        color: #5b9132;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 17px;
+    }
+
+
+    iframe {
+        height: auto !important;
+        min-height: 191px;
+    }
+    #innovacion .Infografia .more {
+    display: block;
+    position: absolute;
+    width: 9.3%;
+}
+#innovacion .Investigacion h2 {
+    font-size: 21px;
+}
+.info-seccion.mfp-1 {
+    background: #22a9c7 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-2 {
+    background: #ff8503 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-3 {
+    background: #7AB736 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-4 {
+    background: #22a9c7 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-5 {
+    background: #96C364 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-6 {
+    background: #22a9c7 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion.mfp-7 {
+    background: #ff8503 none repeat scroll 0 0;
+    color: #fff !important;
+}
+.info-seccion img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 100%;
+}
+#innovacion .Infografia .m1 {
+    left: 55%;
+    top: 8.8%;
+}
+#innovacion .Infografia .m2 {
+    left: 55.5%;
+    top: 18.8%;
+}
+#innovacion .Infografia .m3 {
+    left: 43.7%;
+    top: 30.5%;
+}
+#innovacion .Infografia .m4 {
+    left: 30.9%;
+    top: 39.8%;
+}
+#innovacion .Infografia .m5 {
+    left: 46.2%;
+    top: 51.1%;
+}
+#innovacion .Infografia .m6 {
+    left: 23.9%;
+    top: 60.2%;
+}
+
+#innovacion .Infografia .m7 {
+    left: 33.7%;
+    top: 69.6%;
+}
+
+#innovacion .Infografia {
+    /*background: rgba(0, 0, 0, 0) url("../img/320-innovacion.jpg") repeat scroll 0 0 / 100% auto;*/
+    height: 1472px;
+    margin: 0 auto;
+    width: 265px;
+    z-index: 1000;
+}
+html[lang="es"] #innovacion .Infografia {
+    background: rgba(0, 0, 0, 0) url("../img/320-innovacion.jpg") repeat scroll 0 0 / 100% auto;
+}
+html[lang="en"] #innovacion .Infografia {
+    background: rgba(0, 0, 0, 0) url("../img/320-innovacion-en.jpg") repeat scroll 0 0 / 100% auto;
+}
+
+
+
+.cd-horizontal-timeline .events-content li {
+    background: rgba(0, 0, 0, 0) url("../img/time-1815.jpg") no-repeat scroll 0 0 / 100% auto;
+    display: block !important;
+    height: 350px;
+    width: 100%;
+}
+.cd-horizontal-timeline .events-content li img {
+    opacity: 0 !important;
+}
+
+/* TIMELINE ESPAﾃ前L */
+
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(1) {
+    background-image: url("../img/time-1815.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(2) {
+    background-image: url("../img/time-1835.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(3) {
+    background-image: url("../img/time-1901.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(4) {
+    background-image: url("../img/time-1914.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(5) {
+    background-image: url("../img/time-1927.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(6) {
+    background-image: url("../img/time-1932.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(7) {
+    background-image: url("../img/time-1939.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(8) {
+    background-image: url("../img/time-1960.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(9) {
+    background-image: url("../img/time-1973.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(10) {
+    background-image: url("../img/time-1982.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(11) {
+    background-image: url("../img/time-1983.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(12) {
+    background-image: url("../img/time-1997.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(13) {
+    background-image: url("../img/time-2000.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(14) {
+    background-image: url("../img/time-2001.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(15) {
+    background-image: url("../img/time-2003.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(16) {
+    background-image: url("../img/time-2008.jpg");
+}
+html[lang="es"] .cd-horizontal-timeline .events-content li:nth-child(17) {
+    background-image: url("../img/time-2010.jpg");
+}
+
+/* TIMELINE INGLES */
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(1) {
+    background-image: url("../img/time-1815-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(2) {
+    background-image: url("../img/time-1835-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(3) {
+    background-image: url("../img/time-1901-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(4) {
+    background-image: url("../img/time-1914-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(5) {
+    background-image: url("../img/time-1927-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(6) {
+    background-image: url("../img/time-1932-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(7) {
+    background-image: url("../img/time-1939-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(8) {
+    background-image: url("../img/time-1960-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(9) {
+    background-image: url("../img/time-1973-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(10) {
+    background-image: url("../img/time-1982-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(11) {
+    background-image: url("../img/time-1983-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(12) {
+    background-image: url("../img/time-1997-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(13) {
+    background-image: url("../img/time-2000-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(14) {
+    background-image: url("../img/time-2001-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(15) {
+    background-image: url("../img/time-2003-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(16) {
+    background-image: url("../img/time-2008-en.jpg");
+}
+html[lang="en"] .cd-horizontal-timeline .events-content li:nth-child(17) {
+    background-image: url("../img/time-2020-en.jpg");
+}
+
+}
+@media only screen and (max-width: 520px) {
+
+#blog img {
+        max-width: 100%;
+        height: auto;
+}
+
+#blog > h2 {
+    margin-left: 20px;
+}
+#blog > h3 {
+    margin-left: 20px;
+}
+#blog > form {
+    margin-left: 20px;
+}
+#blog > form a.submit {
+    margin-left: 0 !important;
+    margin-right: 17px;
+}
+
+#blog .dd-select {
+}
+#blog #category {
+    left: 20px;
+    top: 99px !important;
+}
+#blog > h1 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.user {
+    left: 20px;
+    top: 150px;
+}
+#blog section > h1, #titulo_search {
+    font-size: 3.2em;
+    padding-left: 20px;
+}
+
+    #blog .blog article, .posts .masonry .post {
+    width: 300px !important;
+}
+
+#blog #slider3 .swiper-slide {
+    width: 285px;
+}
+    #innovacion .Investigacion h2 {
+        font-size: 18px;
+    }
+    .Entidades > img {
+        width: 200%;
+    }
+    #slider2 article,
+    #slider2 article img {
+        width: 300px;
+    }
+    #slider2 article img {
+        height: auto!important;
+    }
+
+    .home section {
+        margin-bottom: 36px;
+        position: relative;
+    }
+    .home section:nth-child(2) > div {
+        height: auto;
+    }
+
+    .cover {
+        height: 211px;
+        overflow: hidden;
+        position: relative;
+        width: 300px;
+    }
+    .popup form > div:nth-child(2) .dd-select {
+        width: 90% !important;
+    }
+    .popup {
+        height: 320px;
+        max-width: 290px;
+    }
+    .popup > h1 {
+        font-size: 2em;
+        padding: 20px 13%;
+        text-align: center;
+    }
+    #cafe-de-colobia .wrapper h1 {
+        font-size: 2.7em;
+    }
+    #quienes-somos .wrapper h1 {
+        font-size: 2.7em;
+    }
+    #cafe-de-colobia .wrapper:nth-child(4) h1 {
+        padding-right: 50px !important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4) p {
+        background: rgba(56, 1, 21, 0.6) none repeat scroll 0 0;
+        bottom: 0;
+        clear: both;
+        color: #fff;
+        font-size: 1.4em;
+        height: auto;
+        line-height: 15px;
+        margin: 0 !important;
+        padding: 20px;
+        position: static;
+        text-align: left;
+        width: auto !important;
+    }
+
+    #cafe-de-colobia .wrapper:nth-child(4) > article {
+        background: rgba(0, 0, 0, 0) url("../img/fdo_proceso.jpg") repeat-x scroll -364px 80px / 2031px auto !important;
+        padding: 0 20px 30px;
+        width: calc(100% - 40px) !important;
+    }
+
+    #innovacion .Investigacion .secciones .Left {
+        padding-left: 0;
+}/*
+#innovacion .Investigacion .secciones .Left, #innovacion .Investigacion .secciones .Right {
+    max-width: 470px;
+    }*/
+
+    #innovacion .Investigacion .secciones.productos-consumo .Left {
+        width: 100%;
+    }
+    #innovacion .Investigacion .secciones.productos-consumo .Right {
+        display: none;
+    }
+}
+
+
+section#product > article > div > div .info {
+    display: none;
+}
+@media screen and (max-width: 630px) {
+    #product .value h1 {
+    height: 80px;
+}
+section#product > article > div div h3 {
+    display: none !important;
+}
+section#product > article > div > div.active.extracto:nth-child(1) ,
+section#product > article > div > div.active.atomizado:nth-child(1) ,
+section#product > article > div > div.active.aglomerado:nth-child(1) ,
+section#product > article > div > div.active.liofilizado:nth-child(1) ,
+section#product > article > div > div.active.roasted-instant:nth-child(1) {
+    background-position: 0 0 !important;
+}
+section#product > article > div > div:nth-child(1) {
+    background: rgba(0, 0, 0, 0) url("../img/prod1-es.jpg") repeat scroll 0 0!important;
+    height: 687px !important;
+    margin: 0 auto;
+    width: 320px !important;
+}
+section#product > article > div > div.english:nth-child(1) {
+    background: rgba(0, 0, 0, 0) url("../img/prod1-en.jpg") repeat scroll 0 0!important;
+
+}
+
+section#product > article > div > div.japanese:nth-child(1) {
+    background: rgba(0, 0, 0, 0) url("../img/prod1-ja.jpg") repeat scroll 0 0!important;
+
+}
+
+section#product > article > div > div:nth-child(2) {
+    background: rgba(0, 0, 0, 0) url("../img/prod2-es.jpg") repeat scroll 0 0!important;
+    height: 577px !important;
+    margin: 0 auto;
+    width: 320px !important;
+}
+section#product > article > div > div[data-idioma="english"]:nth-child(2) {
+    background: rgba(0, 0, 0, 0) url("../img/prod2-en.jpg") repeat scroll 0 0!important;
+}
+
+section#product > article > div > div[data-idioma="japanese"]:nth-child(2) {
+    background: rgba(0, 0, 0, 0) url("../img/prod2-ja.jpg") repeat scroll 0 0!important;
+}
+
+section#product > article > div > div:nth-child(3) {
+    background: rgba(0, 0, 0, 0) url("../img/prod3-es.jpg") repeat scroll 0 0!important;
+    height: 580px !important;
+    margin: 0 auto;
+    width: 320px !important;
+}
+
+section#product > article > div > div[data-idioma="english"]:nth-child(3) {
+    background: rgba(0, 0, 0, 0) url("../img/prod3-en.jpg") repeat scroll 0 0!important;
+}
+section#product > article > div > div[data-idioma="japanese"]:nth-child(3) {
+    background: rgba(0, 0, 0, 0) url("../img/prod3-ja.jpg") repeat scroll 0 0!important;
+}
+
+section#product > article > div > div:nth-child(4) {
+    background: rgba(0, 0, 0, 0) url("../img/prod4-es.jpg") repeat scroll 0 0!important;
+    height: 532px !important;
+    margin: 0 auto;
+    width: 320px !important;
+}
+section#product > article > div > div[data-idioma="english"]:nth-child(4) {
+    background: rgba(0, 0, 0, 0) url("../img/prod4-en.jpg") repeat scroll 0 0!important;
+}
+section#product > article > div > div[data-idioma="japanese"]:nth-child(4) {
+    background: rgba(0, 0, 0, 0) url("../img/prod4-ja.jpg") repeat scroll 0 0!important;
+}
+section#product > article > div > div:nth-child(5) {
+    background: rgba(0, 0, 0, 0) url("../img/prod5-es.jpg") repeat scroll 0 0!important;
+    height: 721px !important;
+    margin: 0 auto;
+    width: 320px !important;
+}
+section#product > article > div > div[data-idioma="english"]:nth-child(5) {
+    background: rgba(0, 0, 0, 0) url("../img/prod5-en.jpg") repeat scroll 0 0!important;
+}
+section#product > article > div > div[data-idioma="japanese"]:nth-child(5) {
+    background: rgba(0, 0, 0, 0) url("../img/prod5-ja.jpg") repeat scroll 0 0!important;
+}
+
+section#product > article > div div > a {
+    height: 31px !important;
+    left: 227px !important;
+    top: 91px !important;
+    width: 30px !important;
+}
+section#product > article > div div > a:nth-child(3) {
+    left: 219px !important;
+    top: 191px !important;
+}
+section#product > article > div div > a:nth-child(4) {
+    left: 208px !important;
+    top: 316px !important;
+}
+section#product > article > div div > a:nth-child(5) {
+    left: 212px !important;
+    top: 460px !important;
+}
+section#product > article > div div > a:nth-child(6) {
+    top: 590px !important;
+}
+
+section#product > article > div {
+    width: 100% !important;
+}
+section#product > article > div > div{
+    margin: 0 auto;
+    width: 320px !important;
+    box-shadow: none!important;
+}
+
+.Empaques .abrirPopUp:nth-child(2) {
+    left: 22px;
+    top: 262px;
+}
+.Empaques .abrirPopUp:nth-child(3) {
+    left: 24px;
+    top: 638px;
+}
+
+section#product > article > div > div .info.active {
+    background: rgba(72, 46, 37, 0.95) none repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 41px;
+    width: 100%;
+}
+
+#product > article .info p {
+    color: #fff !important;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 30px;
+    padding: 21px;
+}
+#product > article .info .close {
+    color: #fff !important;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+}
+#product > article .info h1 {
+    color: #fff !important;
+    display: block !important;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+}
