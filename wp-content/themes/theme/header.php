@@ -59,7 +59,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/magnific-popup.css">
 <script src="<?php bloginfo('template_url'); ?>/js/contactManagerInvoker.js"></script>
 
-	<title><?php wp_title(); ?> | Alvaro</title>
+	<title><?php wp_title(); ?> | Alvaro 2</title>
 	
    <?php
 	 if(is_front_page()){
